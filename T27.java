@@ -17,11 +17,11 @@ public class T27 {
 		josie[9]=65;
 	*/
 		
-		/* array initaliser*/
+		/* array initialiser - usually done like this?*/
 		
 		int josie[]={2,5,6,7,3,6};
 		
-		System.out.println(josie[2]);
+		System.out.println(josie[2]); /* this number 2 is known as the subscript or index*/
 	}
 	
 }
