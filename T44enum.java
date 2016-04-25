@@ -2,9 +2,13 @@ package test;
 
 public enum T44enum { //this is an enumeration object, where the data is inputted below.
 	joseph("Dude", "23"),
+	Alice("Fiesty", "22"),
+	Nuala("beauts", "23"),
+	Ava("ohwow", "22"),
 	Laura("controlling", "21"),
 	Mahori("spoilt", "25"),
 	Vicky("v.good", "19");
+	
 	
 	private final String desc;
 	private final String age;
