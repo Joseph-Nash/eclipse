@@ -1,0 +1,42 @@
+lecture 2 - programming methodology
+
+karel the robot
+
+move
+turnLeft
+pickBeeper
+putBeeper
+---- methods
+
+algorithm - recipe to solve a problem
+not actually valid commands
+
+import standford.karel.*;
+
+public class ourKarelProgram extends Karel{
+	public void run(){
+		move();
+		pickBeeper();
+		turnLeft();
+		move();
+		turnRight();
+		move();
+		pickBeeper();
+		move();
+
+	}
+	
+	private void turnRight{
+		turnLeft();
+		turnLeft();
+		turnLeft();
+		}
+		
+	private void turnAround{
+		turnLeft();
+		turnLeft();
+		}
+}
+	karel is a class - class of robot -
+	
+	
